@@ -16,8 +16,8 @@ border-radius: 25px;
 }
 
 #form-body{
-/* margin : 70px 550px 50px 550px; */
-margin: 5rem 10rem 5rem 10rem;
+ margin : 70px 550px 50px 550px;
+/* margin: 5rem 10rem 5rem 10rem; */
 min-width: 5rem;
 max-width:  40rem;
 }
