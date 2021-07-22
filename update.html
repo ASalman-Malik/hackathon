@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Ticket</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body onload="getUpdateTicket()">
+  
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <label>Update Ticket</label>
+  <form  class="form-inline" >
+    <button type = 'button' class="btn btn-success" value="Create Ticket" onclick="updateTicket()">Update</button>&nbsp; &nbsp;
+    <button class="btn btn-danger"  value="Cancel Ticket"><a href="index.html">Cancel</a> </button>
+  </form>
+
+</nav>
+
+<div id = "form-body">
+  <form>
+
+	<div class="form-group">
+    <label for="exampleFormControlInput1">Contact:</label>
+    <input type="email" class="form-control" id="contact" placeholder="name@example.com">
+  </div>
+    
+   <!-- <label>Subject:</label>
+   <input id ='subject' type="text" class="form-control" placeholder=""> -->
+
+  <!-- <div class="form-group">
+    <label for="exampleFormControlSelect1">Type:</label>
+    <select class="form-control" id="type">
+      <option>--</option>
+      <option value="Question">Question</option>
+      <option value="Incident">Incident</option>
+      <option value="Problem">Problem</option>
+      <option value="Feature Request">Feature Request</option>
+      <option value="Refund">Refund</option>
+    </select>
+  </div> -->
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Status:</label>
+    <select class="form-control" id="status">
+      <option value="2">Open</option>
+      <option value="3">Pending</option>
+      <option value="4">Resolved</option>
+      <option value="5">Closed</option>
+      <option value="6">Waiting on Customer</option>
+      <option value="7">Waiting on Third Party</option>
+    </select>
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Priority</label>
+    <select class="form-control" id="priority">
+      <option value="1">Low</option>
+      <option value="2">Medium</option>
+      <option value="3">High</option>
+      <option value="4">Urgent</option>
+    </select>
+  </div>
+
+  <!-- <div class="form-group">
+    <label for="exampleFormControlSelect1">Group</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>--</option>
+      <option>Account managers</option>
+      <option>Billing</option>
+      <option>Escalations</option>
+      <option>Product Management</option>
+      <option>QA</option>
+      <option>Replacements</option>
+      <option>Sales</option>
+      <option>Shipping and delivery</option>
+    </select>
+  </div> -->
+  
+  <!-- <div class="form-group">
+    <label for="exampleFormControlSelect1">Agent</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>--</option>
+    </select>
+  </div> -->
+
+   <div class="form-group">
+    <label for="exampleFormControlTextarea1">Description</label>
+    <textarea class="form-control des" id="description" rows="5" required></textarea>
+  </div>
+
+</div>
+
+</form>
+<script type="text/javascript"  src="script.js"></script>
+</body>
+</html>

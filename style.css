@@ -1,0 +1,37 @@
+#counter{
+    margin-left:300px;
+}
+
+#heading{
+margin-left: 300px;
+color: white;
+}
+
+.card{
+max-width: 800px; 
+/* min-width: 400px; */
+margin: 4px 4px 4px 4px;
+border-radius: 25px;
+
+}
+
+#form-body{
+/* margin : 70px 550px 50px 550px; */
+margin: 5rem 10rem 5rem 10rem;
+min-width: 5rem;
+max-width:  40rem;
+}
+
+a{
+color:white;
+
+}
+
+body{
+background-color: #cceabb;
+}
+
+#getter{
+color: black;
+margin-left: 400px;
+}
