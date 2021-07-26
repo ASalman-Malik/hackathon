@@ -202,7 +202,7 @@ function getUpdateTicket(){
 	//.then(data => data.json())
    
    .then(data => data.json())
-   .then((data)=> console.log(data.description_text))
+  // .then((data)=> console.log(data.description_text))
    .then(data => {
 	//    console.log(data.description_text);
        //populating data with the fields availible
